@@ -10,4 +10,11 @@
 
 @interface GameScene : SKScene
 
+@property (nonatomic) NSTimeInterval lastUpdateTimeInterval;
+@property (nonatomic) int discTapped;
+
+@property (nonatomic) int ScoreCount;
+@property (nonatomic) int rainbowCount;
+
+@property (nonatomic) float DiscSpeed;
 @end
